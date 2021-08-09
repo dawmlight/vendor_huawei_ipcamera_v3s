@@ -11,11 +11,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import("//build/lite/config/component/lite_component.gni")
-import("//build/lite/config/subsystem/lite_subsystem.gni")
-
-exec_script("patches/patch.py", [rebase_path("//", root_build_dir)])
-
 group("ipcamera_v3s") {
 
 }
